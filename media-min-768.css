@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+  #highlight-section {
+    display: grid;
+    grid-template-columns: repeat(4, calc(90vw - 40px));
+    grid-template-rows: minmax(150px, 350px);
+    grid-gap: 10px;
+    margin: 50px 0 10px 0;
+    overflow: scroll;
+  }
+
+  #highlight-five {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #advert {
+    display: none;
+  }
+}

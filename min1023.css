@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1023px) {
+  #mobile-nav-icon {
+    display: none;
+  }
+
+  #nav-logo {
+    fill: black;
+    color: black;
+  }
+
+  #nav-logo:hover {
+    fill: var(--pink);
+  }
+
+  #site-nav-middle {
+    display: block;
+  }
+}
